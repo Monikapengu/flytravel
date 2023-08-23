@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arni Travel</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <h1 class="logo">FLYARNI</h1>
+    <ul class="nav-links">
+        <li class="active"><a href="Home">Home</a></li>
+                <li><a href="Tous">Tours</a></li>
+                <li><a href="Explore">Explore</a></li>
+                <li><a href="About">About</a></li>   
+                <li class="ctn"><a href="#"></a>Contact</li> 
+    </ul>
+    <img src="images/menu.png" alt="" class="menu-btn">
+</nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>Place To Visit</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+</header>
+
+<!--Events-->
+
+<section class="Events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="images/everest.jpeg" alt="">
+            <h4>Mountain Everest </h4>
+            <p>Mount Everest is Earth's highest mountain above sea level, 
+                located in the Mahalangur Himal sub-range of the Himalayas.</p>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+            <img src="images/walking.jpeg" alt="">
+            <h4>Walking Holidays</h4>
+            <p>Walks Worldwide offers quality walking and trekking holidays around the world.
+                 Join small guided group walks.</p>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<!--Eplore-->
+
+<section class="explore">
+    <div class="explore-content">
+    <h1>Explore the World</h1>
+    <p>Explore the world in your way
+       Create memories that you won't forget
+       You only live once, so don't waste your time</p>
+       <a href="#" class="ctn">Learn More</a>
+    </div>
+</section>
+
+<section class="tours">
+      <div class="row">
+       <div class="col content-col">
+       <h1>Destinations</h1>
+       <div class="line"></div>
+       <ul>
+        <li><a href="#">Beach areas.</a></li>
+        <li><a href="#">Natural areas.</a></li>
+        <li><a href="#">Towns and cities.</a></li>
+        <li><a href="#">Winter sport areas.</a></li>
+        <li><a href="#">Areas known for culture and heritage.</a></li>
+       </ul>
+
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="images">    
+        <div class="col">
+            <div class="card card1">
+                <h2>Albania</h2>
+            </div>
+            <div class="card card2">
+                <h2>Dubai</h2>
+            </div>
+            <div class="card card3">
+                <h2>Montenegro</h2>
+            </div>
+            <div class="card card4">
+                <h2>Roma</h2>
+            </div>
+            <div class="card card5">
+                <h2>Venezia</h2>
+            </div>
+            <div class="card card6">
+                <h2>London</h2>
+            </div>
+            <div class="card card7">
+                <h2>Tokyo</h2>
+            </div>
+            <div class="card card8">
+                <h2>Turks & Caicos</h2>
+            </div>
+    </section>
+
+<section class="footer">
+    <h1>Discounts and Savings Claims</h1>
+    <p>We offer a number of discount and savings opportunities to our customers. When searching for airfares, discount and savings claims are based on multiple factors, including searching over 500 airlines to find the lowest available fare. 
+        Coupon codes are valid for savings for qualified bookings off our standard service fees. Seniors and youth may find specific discounted fares offered by certain airlines subject to airline qualifications.
+         Military, bereavement and visually impaired travelers are eligible for discounts off our post-booking service fees as outlined in our compassion exception policy.</p>
+         <p>Booking Credit provides a discount against our service fees on stated hotels. 
+            Entry of Promo Code at checkout may provide additional savings. 
+            Please Note: All average nightly rates displayed are based in USD excluding taxes and fees.</p>
+</section>
+
+<script>
+    const menubtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.navlinks')
+    menubtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</body>
+</html>
